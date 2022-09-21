@@ -1,0 +1,87 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+body{
+  background-color: #f7ecbe;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: darkcyan;
+  display: flex;
+  text-align: center;
+}
+
+.navbar img{
+  width: 50px;
+  height: 50px;
+  margin:10px;
+}
+
+#contents {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+#contents ul{
+  list-style: none;
+  display: flex;
+}
+
+#contents ul li{
+  /* margin: 8px; */
+  text-align: right;
+  font-size: 23px;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  padding: 15px;
+}
+
+/* Home Page */
+
+#body {
+  display: flex;
+}
+
+.container1 img {
+  height: 26rem;
+  width: 36rem;
+}
+
+.container1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: darkblue;
+  padding: 3rem;
+  margin: auto;
+}
+
+.container2 {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: auto 8rem auto auto;
+  background-color: lightgreen;
+  border-radius: 4rem;
+  color: darkblue;
+}
+
+.container2 form input {
+  display: block;
+  margin: 1.8rem;
+  height: 2.5rem;
+  width: 45rem;
+}
+
+.container2 form #btn {
+  width: 10rem;
+  margin: auto;
+  background-color: transparent;
+  border: 0.2rem solid darkblue;
+  border-radius: 2rem;
+  color: darkblue;
+}
